@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./javascrip/css.css">
+    <link rel="icon" href="./recursos/logo_!.png" type="image/x-icon">
+    <title>Raptube</title>
+</head>
+
+<body class="light_steel">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper indigo_1">
+
+                <p class="brand-logo center logo"><img class="logo_imag" src="./recursos/logo_!.png" alt="" srcset=""><span class="logo_text">Raptube</span> </p>
+                <!-- <a href="#!" class="brand-logo center">Raptube</a> -->
+            </div>
+        </nav>
+    </div>
+
+    <div class="row ">
+
+        <div class="col l7 m12 s12 box_video">
+            <!-- box-video -->
+            <div class="col l10 m12 s12 offset-l1 ">
+                <video id="video" width="100% " estado="true"></video>
+                <!-- controles -->
+                <div class="controls center-align">
+                    <a onclick="Mplay()" class="btn blue_violet darken-1"><i class="material-icons">play_arrow</i></a>
+                    <a onclick="Mnext()" class="btn blue_violet darken-1"><i class=" material-icons ">keyboard_arrow_right</i></a>
+                    <a onclick="Mreload() " class="btn blue_violet darken-1"><i class="material-icons ">refresh</i></a>
+                </div>
+            </div>
+
+            <div class="col s10 divider indigo_1 darken-2 offset-s1"></div>
+
+            <div class="col s10 offset-s1 box_video_information center-align ">
+                <h6 class="col s12 center ">information video</h6>
+            </div>
+
+            <div class="col s10 divider indigo_1 darken-2 offset-s1"></div>
+
+        </div>
+
+        <!-- list video -->
+        <div class="col l4 m10 s12  box_lista_videos ">
+        </div>
+    </div>
+
+    <script src="./javascrip/script.js "></script>
+</body>
+
+</html>
