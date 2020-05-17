@@ -6,8 +6,8 @@ var info_video_principal = document.getElementsByClassName("box_video_informatio
 var box_lista_videos = document.getElementsByClassName("box_lista_videos")[0]
 
 const DB = {
-    recursos: ['./recursos/1.mp4', './recursos/2.mp4'], //lista de recursos
-    portadas: ['./recursos/poster.jpg', './recursos/poster2.jpg'], //lista de portadas
+    recursos: ['./recursos/videos/1.mp4', './recursos/videos/2.mp4'], //lista de recursos
+    portadas: ['./recursos/poster_video/poster.jpg', './recursos/poster_video/poster2.jpg'], //lista de portadas
     information: ['fate grand orden', 'shakuna no shana op 1'], //informaciones referentes de cada recurso
     /* esquema
     matris database{
